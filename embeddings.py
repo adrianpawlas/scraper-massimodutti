@@ -66,7 +66,14 @@ def get_image_embedding(image_url: str) -> Optional[list[float]]:
         with torch.no_grad():
             outputs = model.get_image_features(**inputs)
 
-        embedding = outputs.cpu().float().numpy().flatten().tolist()
+        # SigLIP returns BaseModelOutputWithPooling; extract pooled tensor
+        if hasattr(outputs, "pooler_output") and outputs.pooler_output is not None:
+            emb_tensor = outputs.pooler_output
+        elif hasattr(outputs, "last_hidden_state") and outputs.last_hidden_state is not None:
+            emb_tensor = outputs.last_hidden_state[:, 0, :]
+        else:
+            emb_tensor = outputs
+        embedding = emb_tensor.cpu().float().numpy().flatten().tolist()
         if len(embedding) != EMBEDDING_DIM:
             logger.warning("Unexpected embedding dim %d", len(embedding))
         return embedding
@@ -98,7 +105,14 @@ def get_text_embedding(text: str) -> Optional[list[float]]:
         with torch.no_grad():
             outputs = model.get_text_features(**inputs)
 
-        embedding = outputs.cpu().float().numpy().flatten().tolist()
+        # SigLIP returns BaseModelOutputWithPooling; extract pooled tensor
+        if hasattr(outputs, "pooler_output") and outputs.pooler_output is not None:
+            emb_tensor = outputs.pooler_output
+        elif hasattr(outputs, "last_hidden_state") and outputs.last_hidden_state is not None:
+            emb_tensor = outputs.last_hidden_state[:, 0, :]
+        else:
+            emb_tensor = outputs
+        embedding = emb_tensor.cpu().float().numpy().flatten().tolist()
         return embedding
     except Exception as e:
         logger.warning("Failed to embed text: %s", e)

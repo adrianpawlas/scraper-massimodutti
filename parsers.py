@@ -71,9 +71,10 @@ def get_image_urls_from_product(bundle_summary: dict) -> tuple[str | None, list[
     detail = bundle_summary.get("detail", {})
     xmedia = detail.get("xmedia", [])
 
-    # Collect only full assets/public URLs (c, o1, t formats)
+    # Collect only full assets/public URLs. Prefer -o1 (exact, not o14/o15), fallback -o3
     all_urls: list[str] = []
-    o1_url: str | None = None  # Prefer -o1 as main
+    o1_url: str | None = None
+    o3_url: str | None = None
     for xm in xmedia:
         for item in xm.get("xmediaItems", []):
             for media in item.get("medias", []):
@@ -82,17 +83,23 @@ def get_image_urls_from_product(bundle_summary: dict) -> tuple[str | None, list[
                     continue
                 if url in all_urls:
                     continue
-                if "-o1" in url:
+                # Exact -o1: -o1/ or -o1. (avoids -o14, -o15)
+                if "-o1/" in url or "-o1." in url:
                     o1_url = url
+                elif "-o3/" in url or "-o3." in url:
+                    o3_url = url
                 all_urls.append(url)
 
     if not all_urls:
         return None, []
 
-    # Prefer -o1 for main, then -c, then -t, then first valid
+    # Prefer -o1 for main, then -o3, then -c, then -t, then first valid
     if o1_url:
         main_url = o1_url
         additional_urls = [u for u in all_urls if u != o1_url]
+    elif o3_url:
+        main_url = o3_url
+        additional_urls = [u for u in all_urls if u != o3_url]
     else:
         for suffix in ("-c", "-t"):
             for u in all_urls:
@@ -154,14 +161,36 @@ def get_description_from_attributes(attributes: list[dict]) -> str:
     return " | ".join(parts) if parts else ""
 
 
-def get_gender_from_attributes(attributes: list[dict]) -> str:
-    """Extract gender from MAN or WOMAN type attributes. Default 'man'."""
+# Terms suggesting women's products (category/name)
+_WOMAN_TERMS = frozenset(
+    w.lower()
+    for w in (
+        "woman", "women", "ladies", "lady", "female",
+        "skirt", "skirts", "dress", "dresses", "blouse", "blouses",
+        "heels", "pumps", "handbag", "handbags", "bra", "bralette",
+        "maternity", "mum", "girl", "girls",
+    )
+)
+
+
+def get_gender_from_attributes(
+    attributes: list[dict],
+    category: str = "",
+    title: str = "",
+) -> str:
+    """Extract gender from MAN/WOMAN attributes, else infer from category/title."""
     for attr in attributes or []:
         attr_type = attr.get("type", "")
         if attr_type == "WOMAN":
             return "woman"
         if attr_type == "MAN":
             return "man"
+
+    # Infer from category and title when no explicit attribute
+    combined = f"{category} {title}".lower()
+    words = set(re.findall(r"\w+", combined))
+    if words & _WOMAN_TERMS:
+        return "woman"
     return "man"
 
 
@@ -269,14 +298,15 @@ def parse_products_api(data: dict) -> list[dict]:
 
         product_id = product.get("id")
         attributes = product.get("attributes", [])
-        gender = get_gender_from_attributes(attributes)
+        category = get_categories_from_attributes(attributes)
+        title = product.get("name") or product.get("nameEn") or ""
+        gender = get_gender_from_attributes(attributes, category=category, title=title)
         product_url = build_product_url(product, bundle, product_id, gender)
 
         if product_url in seen_urls:
             continue
         seen_urls.add(product_url)
 
-        category = get_categories_from_attributes(attributes)
         description = get_description_from_attributes(attributes)
 
         price_str, sale_str = collect_prices_eur(bundle)
