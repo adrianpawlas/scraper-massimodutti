@@ -6,7 +6,7 @@ from typing import Optional
 import requests
 import torch
 from PIL import Image
-from transformers import SiglipModel, SiglipProcessor
+from transformers import SiglipImageProcessor, SiglipModel, SiglipTokenizer
 
 logger = logging.getLogger(__name__)
 
@@ -15,7 +15,8 @@ MODEL_NAME = "google/siglip-base-patch16-384"
 EMBEDDING_DIM = 768
 
 _model = None
-_processor = None
+_image_processor = None
+_tokenizer = None
 _device = None
 
 
@@ -27,14 +28,15 @@ def _get_device():
 
 
 def _load_model():
-    global _model, _processor
+    global _model, _image_processor, _tokenizer
     if _model is None:
         logger.info("Loading SigLIP model %s...", MODEL_NAME)
-        _processor = SiglipProcessor.from_pretrained(MODEL_NAME)
+        _image_processor = SiglipImageProcessor.from_pretrained(MODEL_NAME)
+        _tokenizer = SiglipTokenizer.from_pretrained(MODEL_NAME)
         _model = SiglipModel.from_pretrained(MODEL_NAME)
         _model.to(_get_device())
         _model.eval()
-    return _model, _processor
+    return _model, _image_processor, _tokenizer
 
 
 def get_image_embedding(image_url: str) -> Optional[list[float]]:
@@ -54,11 +56,11 @@ def get_image_embedding(image_url: str) -> Optional[list[float]]:
         logger.warning("Failed to load image %s: %s", image_url, e)
         return None
 
-    model, processor = _load_model()
+    model, image_processor, _ = _load_model()
     device = _get_device()
 
     try:
-        inputs = processor(images=image, return_tensors="pt", padding="max_length")
+        inputs = image_processor(images=image, return_tensors="pt")
         inputs = {k: v.to(device) for k, v in inputs.items()}
 
         with torch.no_grad():
@@ -80,11 +82,17 @@ def get_text_embedding(text: str) -> Optional[list[float]]:
     if not text or not text.strip():
         return None
 
-    model, processor = _load_model()
+    model, _, tokenizer = _load_model()
     device = _get_device()
 
     try:
-        inputs = processor(text=[text], return_tensors="pt", padding="max_length", truncation=True, max_length=64)
+        inputs = tokenizer(
+            text=[text],
+            return_tensors="pt",
+            padding="max_length",
+            truncation=True,
+            max_length=64,
+        )
         inputs = {k: v.to(device) for k, v in inputs.items()}
 
         with torch.no_grad():
