@@ -97,7 +97,7 @@ def record_to_db_row(record: dict, image_embedding: list[float] | None, info_emb
         "title": record["title"],
         "description": record.get("description"),
         "category": record.get("category"),
-        "gender": GENDER,
+        "gender": record.get("gender") or GENDER,
         "metadata": record.get("metadata"),
         "size": None,
         "second_hand": SECOND_HAND,

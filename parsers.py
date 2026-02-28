@@ -148,6 +148,17 @@ def get_description_from_attributes(attributes: list[dict]) -> str:
     return " | ".join(parts) if parts else ""
 
 
+def get_gender_from_attributes(attributes: list[dict]) -> str:
+    """Extract gender from MAN or WOMAN type attributes. Default 'man'."""
+    for attr in attributes or []:
+        attr_type = attr.get("type", "")
+        if attr_type == "WOMAN":
+            return "woman"
+        if attr_type == "MAN":
+            return "man"
+    return "man"
+
+
 def collect_prices_by_currency(
     bundle_summary: dict,
 ) -> tuple[dict[str, str], dict[str, str]]:
@@ -188,22 +199,22 @@ def collect_prices_by_currency(
     return price_formatted, sale_formatted
 
 
-def build_product_url(product: dict, bundle_summary: dict) -> str:
-    """Build product page URL."""
+def build_product_url(product: dict, bundle_summary: dict, gender: str = "man") -> str:
+    """Build product page URL. gender: 'man' or 'woman'."""
     detail = bundle_summary.get("detail", {})
     ref = detail.get("reference") or detail.get("displayReference")
     reference = ""
     if ref:
-        # Extract base reference e.g. "01223203" from "01223203-V2026" or "1223/203"
         base = ref.split("-")[0].replace("/", "")
         reference = base[:12] if base else ""
 
     name = product.get("name") or product.get("nameEn") or "product"
     slug = slugify(name)
 
+    path = f"{BASE_PRODUCT_URL}/{gender}/clothing"
     if reference:
-        return f"{BASE_PRODUCT_URL}/man/clothing/{slug}-c{reference}.html"
-    return f"{BASE_PRODUCT_URL}/man/clothing/{slug}.html"
+        return f"{path}/{slug}-c{reference}.html"
+    return f"{path}/{slug}.html"
 
 
 def parse_products_api(data: dict) -> list[dict]:
@@ -242,13 +253,14 @@ def parse_products_api(data: dict) -> list[dict]:
             continue
 
         product_id = product.get("id")
-        product_url = build_product_url(product, bundle)
+        attributes = product.get("attributes", [])
+        gender = get_gender_from_attributes(attributes)
+        product_url = build_product_url(product, bundle, gender)
 
         if product_url in seen_urls:
             continue
         seen_urls.add(product_url)
 
-        attributes = product.get("attributes", [])
         category = get_categories_from_attributes(attributes)
         description = get_description_from_attributes(attributes)
 
@@ -287,6 +299,7 @@ def parse_products_api(data: dict) -> list[dict]:
                 "id": f"massimodutti_{product_id}",
                 "product_id": product_id,
                 "product_url": product_url,
+                "gender": gender,
                 "image_url": main_image,
                 "additional_images": additional_images_str,
                 "title": product.get("name") or product.get("nameEn") or "Unknown",
