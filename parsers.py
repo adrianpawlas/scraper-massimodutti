@@ -194,7 +194,7 @@ def get_gender_from_attributes(
     return "man"
 
 
-# EUR countries - prefer these for price lookup
+# EUR countries - prefer for price lookup; fallback to any country
 EUR_COUNTRIES = frozenset(
     c for c, curr in COUNTRY_TO_CURRENCY.items() if curr == "EUR"
 )
@@ -204,20 +204,22 @@ def collect_prices_eur(
     bundle_summary: dict,
 ) -> tuple[str | None, str | None]:
     """
-    Collect EUR-only prices. API: price=current, oldPrice=original when on sale.
+    Collect prices in EUR. API: price=current, oldPrice=original when on sale.
+    Takes first available price (prefer EUR countries), treats as EUR cents.
     Returns (normal_price_eur, sale_price_eur | None).
     - normal_price: original/regular price in EUR (e.g. 69.95EUR)
     - sale_price: discounted price when on sale (oldPrice exists), else None
     """
     original_cents: int | None = None
     sale_cents: int | None = None
-    has_discount = False
+    found_eur = False
 
     colors = bundle_summary.get("detail", {}).get("colors", [])
+    # First pass: try EUR countries
     for color in colors:
         for size in color.get("sizes", []):
-            country = size.get("country", "")
-            if country.upper() not in EUR_COUNTRIES:
+            country = (size.get("country") or "").upper()
+            if country not in EUR_COUNTRIES:
                 continue
 
             price_str = size.get("price")
@@ -231,16 +233,38 @@ def collect_prices_eur(
                     if old_cents is not None:
                         original_cents = old_cents
                         sale_cents = price_cents
-                        has_discount = True
                     else:
                         original_cents = price_cents
                         sale_cents = None
+                    found_eur = True
                     break
             except (ValueError, TypeError):
                 pass
-        else:
-            continue
-        break
+        if found_eur:
+            break
+
+    # Fallback: take first price from any country
+    if original_cents is None:
+        for color in colors:
+            for size in color.get("sizes", []):
+                price_str = size.get("price")
+                old_price_str = size.get("oldPrice")
+                try:
+                    price_cents = int(price_str) if price_str else None
+                    old_cents = int(old_price_str) if old_price_str else None
+
+                    if price_cents is not None:
+                        if old_cents is not None:
+                            original_cents = old_cents
+                            sale_cents = price_cents
+                        else:
+                            original_cents = price_cents
+                            sale_cents = None
+                        break
+                except (ValueError, TypeError):
+                    pass
+            if original_cents is not None:
+                break
 
     if original_cents is None:
         return None, None
