@@ -1,0 +1,6 @@
+# Paste your Massimo Dutti API URLs below (one per line)
+# - Products API (full product data): JSON with "products" array - REQUIRED for importing
+# - Grid API (product IDs): JSON with "gridElements" or "productIds" - optional
+# - You can also use local file paths for testing (e.g. sample1txt)
+#
+# For testing with local file, add: sample1txt

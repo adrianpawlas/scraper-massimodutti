@@ -1,0 +1,3328 @@
+{
+  "gridElements": [
+    {
+      "ccIds": [],
+      "type": "section",
+      "section": {
+        "name": "EDITORIAL_SECTION"
+      },
+      "commercialComponentIds": []
+    },
+    {
+      "id": "b006b3c0-ed37-498e-b3c1-71ba5a2c47bf",
+      "template": "LW2A_1",
+      "ccIds": [59909958, 59909962],
+      "type": "block",
+      "section": {
+        "name": "EDITORIAL_SECTION"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 59909958,
+          "defaultImageType": "1223203720_2_5_",
+          "hiddenFields": [
+            "all"
+          ],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 59909962,
+          "defaultImageType": "1223203720_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        }
+      ]
+    },
+    {
+      "id": "fd728a4d-60bf-440a-a7fb-26024b23d90a",
+      "template": "L4A_1",
+      "ccIds": [57024911, 57024913, 57024909, 57024912],
+      "type": "block",
+      "section": {
+        "name": "EDITORIAL_SECTION"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 57024911,
+          "defaultImageType": "1188201714_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 57024913,
+          "defaultImageType": "1188201706_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 57024909,
+          "defaultImageType": "1188201401_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 57024912,
+          "defaultImageType": "1188201606_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "b006b3c0-ed37-498e-b3c1-71ba5a2c47bf",
+      "template": "LW2A_1",
+      "ccIds": [57677185, 58357806],
+      "type": "block",
+      "section": {
+        "name": "EDITORIAL_SECTION"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 57677185,
+          "defaultImageType": "1244249722_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 58357806,
+          "defaultImageType": "1238247706_2_8_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "fd728a4d-60bf-440a-a7fb-26024b23d90a",
+      "template": "L4A_1",
+      "ccIds": [57117537, 59910201, 57125065, 57125077],
+      "type": "block",
+      "section": {
+        "name": "EDITORIAL_SECTION"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 57117537,
+          "defaultImageType": "1187202401_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 59910201,
+          "defaultImageType": "1187202401_2_9_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        },
+        {
+          "ccId": 57125065,
+          "defaultImageType": "1203247405_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 57125077,
+          "defaultImageType": "1218201401_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "ccIds": [],
+      "type": "section",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": []
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [58829348],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 58829348,
+          "defaultImageType": "1134201937_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "192ee05d-e6d6-4753-8bf3-44a12e28bb53",
+      "template": "L2K_1",
+      "ccIds": [56836566, 56836563],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56836566,
+          "defaultImageType": "1134201937_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        },
+        {
+          "ccId": 56836563,
+          "defaultImageType": "1134201401_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [56839176],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56839176,
+          "defaultImageType": "1144210800_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "192ee05d-e6d6-4753-8bf3-44a12e28bb53",
+      "template": "L2K_1",
+      "ccIds": [56839174, 56839175],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56839174,
+          "defaultImageType": "1144210497_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56839175,
+          "defaultImageType": "1144210401_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [57692338],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 57692338,
+          "defaultImageType": "1211208538_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "fd728a4d-60bf-440a-a7fb-26024b23d90a",
+      "template": "L4A_1",
+      "ccIds": [57692340, 57692336, 57692337, 57692339],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 57692340,
+          "defaultImageType": "1211208706_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 57692336,
+          "defaultImageType": "1211208037_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 57692337,
+          "defaultImageType": "1211208401_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 57692339,
+          "defaultImageType": "1211208606_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [57163036],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 57163036,
+          "defaultImageType": "1192206401_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "192ee05d-e6d6-4753-8bf3-44a12e28bb53",
+      "template": "L2K_1",
+      "ccIds": [57125072, 57125073],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 57125072,
+          "defaultImageType": "1210201900_2_9_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 57125073,
+          "defaultImageType": "1210201724_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [58760807],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 58760807,
+          "defaultImageType": "1171201953_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "192ee05d-e6d6-4753-8bf3-44a12e28bb53",
+      "template": "L2K_1",
+      "ccIds": [56839126, 56839182],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56839126,
+          "defaultImageType": "1171201953_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        },
+        {
+          "ccId": 56839182,
+          "defaultImageType": "1177201720_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [58829349],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 58829349,
+          "defaultImageType": "1194201401_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "192ee05d-e6d6-4753-8bf3-44a12e28bb53",
+      "template": "L2K_1",
+      "ccIds": [56717810, 57017894],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56717810,
+          "defaultImageType": "1118214801_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 57017894,
+          "defaultImageType": "1194201401_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [57125069],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 57125069,
+          "defaultImageType": "1208247506_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "192ee05d-e6d6-4753-8bf3-44a12e28bb53",
+      "template": "L2K_1",
+      "ccIds": [56839171, 58829332],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56839171,
+          "defaultImageType": "1161201710_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 58829332,
+          "defaultImageType": "1161201710_2_8_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [57590900],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 57590900,
+          "defaultImageType": "1118214801_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        }
+      ]
+    },
+    {
+      "id": "192ee05d-e6d6-4753-8bf3-44a12e28bb53",
+      "template": "L2K_1",
+      "ccIds": [56745150, 56745149],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56745150,
+          "defaultImageType": "1154217548_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56745149,
+          "defaultImageType": "1154217401_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [57658144],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 57658144,
+          "defaultImageType": "1248205799_2_9_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "192ee05d-e6d6-4753-8bf3-44a12e28bb53",
+      "template": "L2K_1",
+      "ccIds": [57684957, 58357730],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 57684957,
+          "defaultImageType": "1232203706_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 58357730,
+          "defaultImageType": "1245208963_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [56717797],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56717797,
+          "defaultImageType": "1100246809_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "192ee05d-e6d6-4753-8bf3-44a12e28bb53",
+      "template": "L2K_1",
+      "ccIds": [56717799, 56717798],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56717799,
+          "defaultImageType": "1100246706_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56717798,
+          "defaultImageType": "1100246401_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [58829665],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 58829665,
+          "defaultImageType": "1170201712_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "192ee05d-e6d6-4753-8bf3-44a12e28bb53",
+      "template": "L2K_1",
+      "ccIds": [56839121, 56839120],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56839121,
+          "defaultImageType": "1170201712_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        },
+        {
+          "ccId": 56839120,
+          "defaultImageType": "1170201401_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [59143355],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 59143355,
+          "defaultImageType": "1188201606_2_5_",
+          "hiddenFields": [
+            "all"
+          ],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        }
+      ]
+    },
+    {
+      "id": "fd728a4d-60bf-440a-a7fb-26024b23d90a",
+      "template": "L4A_1",
+      "ccIds": [57017908, 57017907, 57017909, 57017910],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 57017908,
+          "defaultImageType": "1196201712_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 57017907,
+          "defaultImageType": "1196201401_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 57017909,
+          "defaultImageType": "1196201900_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 57017910,
+          "defaultImageType": "1196201606_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [56839185],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56839185,
+          "defaultImageType": "1175201937_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "fd728a4d-60bf-440a-a7fb-26024b23d90a",
+      "template": "L4A_1",
+      "ccIds": [56839178, 56839179, 56839177, 56839180],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56839178,
+          "defaultImageType": "1145210401_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56839179,
+          "defaultImageType": "1145210830_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56839177,
+          "defaultImageType": "1145210422_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56839180,
+          "defaultImageType": "1145210800_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "b006b3c0-ed37-498e-b3c1-71ba5a2c47bf",
+      "template": "LW2A_1",
+      "ccIds": [59909463, 59909957],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 59909463,
+          "defaultImageType": "1241201439_2_6_",
+          "hiddenFields": [
+            "all"
+          ],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 59909957,
+          "defaultImageType": "1241201439_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        }
+      ]
+    },
+    {
+      "id": "fd728a4d-60bf-440a-a7fb-26024b23d90a",
+      "template": "L4A_1",
+      "ccIds": [57684946, 58357774, 58069636, 57334284],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 57684946,
+          "defaultImageType": "1202210401_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 58357774,
+          "defaultImageType": "1241201439_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        },
+        {
+          "ccId": 58069636,
+          "defaultImageType": "1237240507_2_7_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 57334284,
+          "defaultImageType": "1237240507_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [59142848],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 59142848,
+          "defaultImageType": "1194201401_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        }
+      ]
+    },
+    {
+      "id": "192ee05d-e6d6-4753-8bf3-44a12e28bb53",
+      "template": "L2K_1",
+      "ccIds": [57684947, 57684948],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 57684947,
+          "defaultImageType": "1243201401_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 57684948,
+          "defaultImageType": "1243201724_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [59750232],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 59750232,
+          "defaultImageType": "1195201606_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "fd728a4d-60bf-440a-a7fb-26024b23d90a",
+      "template": "L4A_1",
+      "ccIds": [57334279, 57334280, 57334281, 57334282],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 57334279,
+          "defaultImageType": "1195201401_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 57334280,
+          "defaultImageType": "1195201800_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 57334281,
+          "defaultImageType": "1195201714_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 57334282,
+          "defaultImageType": "1195201606_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [59078210],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 59078210,
+          "defaultImageType": "1209201549_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "192ee05d-e6d6-4753-8bf3-44a12e28bb53",
+      "template": "L2K_1",
+      "ccIds": [57024914, 57024915],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 57024914,
+          "defaultImageType": "1209201401_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 57024915,
+          "defaultImageType": "1209201549_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [59909464],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 59909464,
+          "defaultImageType": "1217201953_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "192ee05d-e6d6-4753-8bf3-44a12e28bb53",
+      "template": "L2K_1",
+      "ccIds": [57692348, 57692349],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 57692348,
+          "defaultImageType": "1217201710_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 57692349,
+          "defaultImageType": "1217201953_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        }
+      ]
+    },
+    {
+      "id": "72803100-b1d1-4c85-a61a-309b5fe29076",
+      "template": "L1C_1",
+      "ccIds": [58760304],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 58760304,
+          "defaultImageType": "1171201953_7_1_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        }
+      ]
+    },
+    {
+      "id": "fd728a4d-60bf-440a-a7fb-26024b23d90a",
+      "template": "L4A_1",
+      "ccIds": [56717673, 56717674, 56717675, 56717672],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56717673,
+          "defaultImageType": "1096214401_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56717674,
+          "defaultImageType": "1096214963_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56717675,
+          "defaultImageType": "1096214800_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56717672,
+          "defaultImageType": "1096214809_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [59909460],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 59909460,
+          "defaultImageType": "1091214800_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "192ee05d-e6d6-4753-8bf3-44a12e28bb53",
+      "template": "L2K_1",
+      "ccIds": [56717873, 56717877],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56717873,
+          "defaultImageType": "1091214781_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56717877,
+          "defaultImageType": "1091214526_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [58829680],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 58829680,
+          "defaultImageType": "1188201606_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        }
+      ]
+    },
+    {
+      "id": "fd728a4d-60bf-440a-a7fb-26024b23d90a",
+      "template": "L4A_1",
+      "ccIds": [56717875, 56717876, 56717878, 56839116],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56717875,
+          "defaultImageType": "1091214501_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56717876,
+          "defaultImageType": "1091214800_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        },
+        {
+          "ccId": 56717878,
+          "defaultImageType": "1091214470_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56839116,
+          "defaultImageType": "1162201401_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [57417878],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 57417878,
+          "defaultImageType": "1179201439_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "192ee05d-e6d6-4753-8bf3-44a12e28bb53",
+      "template": "L2K_1",
+      "ccIds": [59718222, 56839147],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 59718222,
+          "defaultImageType": "1179201439_1_1_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        },
+        {
+          "ccId": 56839147,
+          "defaultImageType": "1179201800_1_1_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [58829188],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 58829188,
+          "defaultImageType": "1097224805_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "fd728a4d-60bf-440a-a7fb-26024b23d90a",
+      "template": "L4A_1",
+      "ccIds": [56717715, 56717717, 56717716, 56717814],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56717715,
+          "defaultImageType": "1097224401_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56717717,
+          "defaultImageType": "1097224805_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        },
+        {
+          "ccId": 56717716,
+          "defaultImageType": "1097224814_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56717814,
+          "defaultImageType": "1120214801_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [58760775],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 58760775,
+          "defaultImageType": "1170201401_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        }
+      ]
+    },
+    {
+      "id": "fd728a4d-60bf-440a-a7fb-26024b23d90a",
+      "template": "L4A_1",
+      "ccIds": [56839132, 56839131, 56839133, 58554564],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56839132,
+          "defaultImageType": "1164217548_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56839131,
+          "defaultImageType": "1164217401_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56839133,
+          "defaultImageType": "1164217606_2_7_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 58554564,
+          "defaultImageType": "8befa261396c4f76a06e8ba256d18b08",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [59078208],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 59078208,
+          "defaultImageType": "1134201153_2_9_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "fd728a4d-60bf-440a-a7fb-26024b23d90a",
+      "template": "L4A_1",
+      "ccIds": [56836565, 56836567, 56836564, 56836562],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56836565,
+          "defaultImageType": "1134201527_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56836567,
+          "defaultImageType": "1134201153_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        },
+        {
+          "ccId": 56836564,
+          "defaultImageType": "1134201515_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56836562,
+          "defaultImageType": "1134201809_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [58554339],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 58554339,
+          "defaultImageType": "1188201401_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        }
+      ]
+    },
+    {
+      "id": "fd728a4d-60bf-440a-a7fb-26024b23d90a",
+      "template": "L4A_1",
+      "ccIds": [57166482, 58829660, 57684945, 57017911],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 57166482,
+          "defaultImageType": "1200206401_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 58829660,
+          "defaultImageType": "1200206401_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        },
+        {
+          "ccId": 57684945,
+          "defaultImageType": "1226210422_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 57017911,
+          "defaultImageType": "1198201410_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [57612716],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 57612716,
+          "defaultImageType": "1118214801_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        }
+      ]
+    },
+    {
+      "id": "192ee05d-e6d6-4753-8bf3-44a12e28bb53",
+      "template": "L2K_1",
+      "ccIds": [57017913, 57017912],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 57017913,
+          "defaultImageType": "1199201513_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 57017912,
+          "defaultImageType": "1199201401_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [57692347],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 57692347,
+          "defaultImageType": "1213201410_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "fd728a4d-60bf-440a-a7fb-26024b23d90a",
+      "template": "L4A_1",
+      "ccIds": [56839158, 56839157, 56839159, 56962005],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56839158,
+          "defaultImageType": "1148210952_1_1_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56839157,
+          "defaultImageType": "1148210446_1_1_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56839159,
+          "defaultImageType": "1148210923_1_1_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56962005,
+          "defaultImageType": "1148210401_1_1_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [59078209],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 59078209,
+          "defaultImageType": "1176210401_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "192ee05d-e6d6-4753-8bf3-44a12e28bb53",
+      "template": "L2K_1",
+      "ccIds": [56839186, 56839187],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56839186,
+          "defaultImageType": "1176210401_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        },
+        {
+          "ccId": 56839187,
+          "defaultImageType": "1176210800_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [57590897],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 57590897,
+          "defaultImageType": "1104214800_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "fd728a4d-60bf-440a-a7fb-26024b23d90a",
+      "template": "L4A_1",
+      "ccIds": [56717700, 56717701, 57117567, 56717711],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56717700,
+          "defaultImageType": "1107222401_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56717701,
+          "defaultImageType": "1107222758_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 57117567,
+          "defaultImageType": "1224232700_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56717711,
+          "defaultImageType": "1116231775_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [57590894],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 57590894,
+          "defaultImageType": "1174218700_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "192ee05d-e6d6-4753-8bf3-44a12e28bb53",
+      "template": "L2K_1",
+      "ccIds": [56839137, 56839136],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56839137,
+          "defaultImageType": "1174218700_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        },
+        {
+          "ccId": 56839136,
+          "defaultImageType": "1174218401_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [58760808],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 58760808,
+          "defaultImageType": "1188201714_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        }
+      ]
+    },
+    {
+      "id": "192ee05d-e6d6-4753-8bf3-44a12e28bb53",
+      "template": "L2K_1",
+      "ccIds": [56839151, 56839150],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56839151,
+          "defaultImageType": "1165201706_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56839150,
+          "defaultImageType": "1165201401_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [59551591],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 59551591,
+          "defaultImageType": "1189213606_2_6_",
+          "hiddenFields": [
+            "all"
+          ],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "fd728a4d-60bf-440a-a7fb-26024b23d90a",
+      "template": "L4A_1",
+      "ccIds": [57017916, 57017917, 57017915, 57017918],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 57017916,
+          "defaultImageType": "1189213986_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 57017917,
+          "defaultImageType": "1189213549_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 57017915,
+          "defaultImageType": "1189213401_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 57017918,
+          "defaultImageType": "1189213606_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [57590908],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 57590908,
+          "defaultImageType": "1104214706_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "fd728a4d-60bf-440a-a7fb-26024b23d90a",
+      "template": "L4A_1",
+      "ccIds": [56718161, 56718160, 56718158, 56718159],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56718161,
+          "defaultImageType": "1104214706_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        },
+        {
+          "ccId": 56718160,
+          "defaultImageType": "1104214724_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56718158,
+          "defaultImageType": "1104214401_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56718159,
+          "defaultImageType": "1104214800_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        }
+      ]
+    },
+    {
+      "id": "b006b3c0-ed37-498e-b3c1-71ba5a2c47bf",
+      "template": "LW2A_1",
+      "ccIds": [59750321, 59718229],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 59750321,
+          "defaultImageType": "1242201503_2_6_",
+          "hiddenFields": [
+            "all"
+          ],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 59718229,
+          "defaultImageType": "1242201503_2_7_",
+          "hiddenFields": [
+            "all"
+          ],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        }
+      ]
+    },
+    {
+      "id": "fd728a4d-60bf-440a-a7fb-26024b23d90a",
+      "template": "L4A_1",
+      "ccIds": [59552167, 57677212, 57684943, 57684949],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 59552167,
+          "defaultImageType": "1239247843_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 57677212,
+          "defaultImageType": "1239247843_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        },
+        {
+          "ccId": 57684943,
+          "defaultImageType": "1223203720_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        },
+        {
+          "ccId": 57684949,
+          "defaultImageType": "1242201503_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        }
+      ]
+    },
+    {
+      "id": "b006b3c0-ed37-498e-b3c1-71ba5a2c47bf",
+      "template": "LW2A_1",
+      "ccIds": [56718226, 56718229],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56718226,
+          "defaultImageType": "0909201401_2_6_",
+          "hiddenFields": [
+            "all"
+          ],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56718229,
+          "defaultImageType": "0909201712_2_8_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "fd728a4d-60bf-440a-a7fb-26024b23d90a",
+      "template": "L4A_1",
+      "ccIds": [56718224, 56718225, 56718233, 56718228],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56718224,
+          "defaultImageType": "0909201809_1_1_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56718225,
+          "defaultImageType": "0909201456_1_1_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56718233,
+          "defaultImageType": "0909201606_1_1_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56718228,
+          "defaultImageType": "0909201800_1_1_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [56839144],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56839144,
+          "defaultImageType": "1179201401_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "fd728a4d-60bf-440a-a7fb-26024b23d90a",
+      "template": "L4A_1",
+      "ccIds": [56839146, 56839148, 56839145, 56839149],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56839146,
+          "defaultImageType": "1179201524_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56839148,
+          "defaultImageType": "1179201714_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56839145,
+          "defaultImageType": "1179201710_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56839149,
+          "defaultImageType": "1179201606_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [56839152],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56839152,
+          "defaultImageType": "1167206401_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "192ee05d-e6d6-4753-8bf3-44a12e28bb53",
+      "template": "L2K_1",
+      "ccIds": [56839153, 56839154],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56839153,
+          "defaultImageType": "1167206700_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56839154,
+          "defaultImageType": "1167206548_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [58829683],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 58829683,
+          "defaultImageType": "1191226507_2_6_",
+          "hiddenFields": [
+            "all"
+          ],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "fd728a4d-60bf-440a-a7fb-26024b23d90a",
+      "template": "L4A_1",
+      "ccIds": [56778544, 56778543, 58101187, 56778570],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56778544,
+          "defaultImageType": "1191226706_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56778543,
+          "defaultImageType": "1191226507_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        },
+        {
+          "ccId": 58101187,
+          "defaultImageType": "1149211401_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56778570,
+          "defaultImageType": "1149211401_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": true
+        }
+      ]
+    },
+    {
+      "id": "4444da57-30b5-42e1-94a4-369b865215af",
+      "template": "L1E_1",
+      "ccIds": [56839167],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56839167,
+          "defaultImageType": "1147210952_2_6_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "id": "fd728a4d-60bf-440a-a7fb-26024b23d90a",
+      "template": "L4A_1",
+      "ccIds": [56839165, 56839166, 56839169, 56839168],
+      "type": "block",
+      "section": {
+        "name": "PRIO 1"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 56839165,
+          "defaultImageType": "1147210422_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56839166,
+          "defaultImageType": "1147210401_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56839169,
+          "defaultImageType": "1147210737_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        },
+        {
+          "ccId": 56839168,
+          "defaultImageType": "1147210800_2_5_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    },
+    {
+      "ccIds": [],
+      "type": "section",
+      "section": {
+        "name": "OTROS"
+      },
+      "commercialComponentIds": []
+    },
+    {
+      "ccIds": [57117538],
+      "type": "CC",
+      "section": {
+        "name": "OTROS"
+      },
+      "commercialComponentIds": [
+        {
+          "ccId": 57117538,
+          "defaultImageType": "1187202506_1_1_",
+          "hiddenFields": [],
+          "isAddToCartDisabled": false,
+          "mediaCompete": [],
+          "type": "Product",
+          "kind": "Wear",
+          "xmedia": [],
+          "duplicateReference": false
+        }
+      ]
+    }
+  ],
+  "filters": {
+    "colFilter": [
+      {
+        "name": "CO-VERDES",
+        "value": "Greens",
+        "productIds": [56839132, 56839146, 57684949, 57117538, 57334284, 57017913, 59750321, 57024915, 57017917, 57017909, 56717674, 56836565, 59078210, 56745150, 56836564, 59718229, 56839154, 58069636, 58357730]
+      },
+      {
+        "name": "CO-RAYAS",
+        "value": "Striped",
+        "productIds": [57166482, 57677185, 58357806, 57163036, 58829660]
+      },
+      {
+        "name": "CO-ESTAMPADOS",
+        "value": "Prints",
+        "productIds": [59909957, 59909463, 58357774]
+      },
+      {
+        "name": "CO-AZULES",
+        "value": "Blues",
+        "productIds": [57166482, 57117537, 56717798, 56839157, 59142848, 56718226, 57017894, 58760775, 57017912, 57417878, 57024909, 56839178, 56836563, 59910201, 58829349, 57017907, 57125077, 56839116, 56718158, 56717673, 57684946, 56839152, 56839150, 57017915, 56839144, 56839175, 56745149, 56839120, 57163036, 57334279, 57684945, 57125065, 57024914, 56839131, 56717878, 58554339, 56839165, 57017911, 57692347, 56839166, 58829660, 59078209, 56839174, 56839186]
+      },
+      {
+        "name": "CO-MARRONES",
+        "value": "Browns",
+        "productIds": [56718160, 57692340, 56839148, 58357806, 56717873, 56839169, 57334281, 56717711, 57125073, 57117567, 56718161, 56839153, 57684948, 57024911, 57677185, 57590908, 56717701, 56839179, 57684957, 58760808, 56717799, 56839151]
+      },
+      {
+        "name": "CO-AMARILLOS",
+        "value": "Yellows",
+        "productIds": [57658144]
+      },
+      {
+        "name": "CO-BLANCOS",
+        "value": "Whites",
+        "productIds": [56718229]
+      },
+      {
+        "name": "CO-GRISES",
+        "value": "Greys",
+        "productIds": [59552167, 58829188, 56717716, 56836562, 56717797, 57125072, 57677212, 56839159, 56717672, 56717717, 56718224]
+      },
+      {
+        "name": "CO-NEGROS",
+        "value": "Blacks",
+        "productIds": [56839176, 56717876, 56718159, 57590897, 56717675, 56839180, 56839147, 59909460, 57334280, 56839168, 56718228, 56839187]
+      },
+      {
+        "name": "CO-ROJOS",
+        "value": "Reds",
+        "productIds": [58829348, 57692339, 56839133, 56839149, 57334282, 56839185, 59750232, 59551591, 57024912, 56836566, 58829680, 57017918, 57017910, 56718233, 59143355]
+      },
+      {
+        "name": "CO-CRUDOS",
+        "value": "Ecrus",
+        "productIds": [57017908, 56839121, 56718229, 56836567, 59078208, 58829665]
+      },
+      {
+        "name": "CO-BEIGE",
+        "value": "Beige",
+        "productIds": [59909962, 59909958, 57024913, 59909464, 56839171, 58760807, 56839145, 56839126, 58760304, 56839158, 58829332, 57684943, 56839182, 57692348, 57692349, 56839167]
+      }
+    ],
+    "catFilter": [
+      {
+        "name": "CR-CUELLO PERKINS",
+        "value": "High neck",
+        "productIds": [56718160, 56718161, 57590908, 56718159, 57590897, 56718158]
+      },
+      {
+        "name": "CR-CUELLO ALTO",
+        "value": "High neck",
+        "productIds": [57024914, 57024915, 57684948, 56839150, 57684947, 59078210, 57125077, 56839151]
+      },
+      {
+        "name": "CR-MANGA LARGA",
+        "value": "Long sleeve",
+        "productIds": [57166482, 59909962, 57684949, 59142848, 59909463, 57024912, 56778570, 57024911, 56718159, 56836565, 57684943, 58357730, 59143355, 56839132, 58829348, 57017908, 57024913, 58829188, 56839150, 58357806, 57163036, 56836567, 57125065, 57024915, 56839153, 56717701, 58829332, 56839136, 57017910, 58829660, 56839151, 56717798, 57590897, 57684947, 57017894, 56839180, 56717717, 58760304, 57125073, 56836563, 56839121, 56717700, 56839179, 59078210, 58069636, 56717799, 58357774, 57117538, 56839175, 56839126, 57590908, 56836564, 56839174, 57334284, 58760775, 57017912, 56839137, 58760807, 59750321, 56836566, 56717711, 59909957, 56718161, 59910201, 56745150, 56717675, 58829349, 59078208, 56839116, 56718158, 56839133, 56717716, 56745149, 56839120, 57117567, 56839176, 57017909, 58829680, 57684957, 57117537, 56839171, 57677212, 57017913, 56717672, 57024909, 56717715, 56839178, 57684948, 59718229, 57017907, 57125077, 58829665, 56717673, 56718160, 58101187, 59909958, 56839152, 57590894, 57125072, 57684945, 57024914, 56839131, 59552167, 56717674, 57677185, 56836562, 58554339, 57658144, 56717797, 56839182, 57017911, 56839154, 58760808]
+      },
+      {
+        "name": "CR-CUELLO MOCK",
+        "value": "Mock neck",
+        "productIds": [57017908, 57017909, 58829188, 56717716, 57017911, 57017907, 57017910, 56717715, 56717717, 58357730]
+      },
+      {
+        "name": "CR-BOLSILLOS",
+        "value": "Pockets",
+        "productIds": [57117567, 58760807, 56839126, 58760304]
+      },
+      {
+        "name": "CR-CUELLO POLO",
+        "value": "Polo collar",
+        "productIds": [57692340, 57684949, 59142848, 59750232, 58760775, 56839137, 58760807, 57334280, 59750321, 59910201, 58829349, 56839132, 57692337, 57692339, 56839133, 57684946, 57334282, 57017915, 56839144, 56745149, 56839120, 57334279, 56839145, 57125065, 57117567, 57017918, 56717701, 57684957, 56839136, 57017916, 56839186, 57117537, 56839146, 56839149, 56839148, 56839185, 56717798, 56839157, 59909464, 57017894, 59551591, 56839180, 56839159, 57334281, 56839178, 58760304, 57125073, 57017917, 56839121, 56717700, 56839179, 59718229, 56717799, 58829665, 57590894, 57117538, 57125072, 56839126, 57692338, 57692336, 56839131, 56839158, 56717797, 57692348, 57692349, 59078209]
+      },
+      {
+        "name": "CR-CUELLO REDONDO",
+        "value": "Round neck",
+        "productIds": [57166482, 59909962, 56718226, 59909463, 57334284, 57024912, 59909460, 56836566, 56717711, 59909957, 57024911, 56836565, 57684943, 56718229, 59078208, 56839116, 56839167, 59143355, 58829348, 57024913, 58357806, 56717873, 57163036, 56836567, 56839176, 58829680, 56717878, 58829332, 56718225, 58829660, 56718228, 56839171, 57677212, 56839169, 57024909, 56717875, 56836563, 56717877, 58069636, 58357774, 59909958, 56839175, 57684945, 59552167, 56717876, 57677185, 56836562, 58554339, 56839165, 57658144, 56836564, 56839166, 58760808, 56839168, 56718224, 56718233, 56839174]
+      },
+      {
+        "name": "CR-MANGA CORTA",
+        "value": "Short sleeve",
+        "productIds": [59718222, 56839146, 56839149, 57692340, 56839148, 56839157, 59750232, 59909464, 56718226, 59551591, 56839169, 56839159, 57334281, 57417878, 57334280, 57017917, 56839167, 57692337, 57692339, 57684946, 57334282, 57017915, 56839144, 57334279, 56839145, 57692338, 57692336, 56839158, 57017918, 56839165, 57692348, 57692347, 57017916, 56718225, 57692349, 56839147, 56839166, 59078209, 56839168, 56718224, 56718233, 56718228, 56839186]
+      },
+      {
+        "name": "CR-RAYAS",
+        "value": "Striped",
+        "productIds": [57166482, 57677185, 58357806, 57163036, 58829660]
+      },
+      {
+        "name": "CR-CUELLO PICO",
+        "value": "V-neck",
+        "productIds": [56839132, 56839133, 56839152, 56839157, 56839120, 58760775, 56839159, 56839131, 56839158, 56839153, 56839121, 56839182, 56839154, 58829665, 58357730]
+      }
+    ],
+    "maxPriceFilter": [],
+    "minPriceFilter": [],
+    "priceFilter": [
+      {
+        "price": "4595",
+        "productIds": []
+      },
+      {
+        "price": "5000",
+        "productIds": [56718226, 56718229, 56718224, 56718225, 56718233, 56718228, 58829348, 56836566, 56836563, 57692338, 57692340, 57692336, 57692337, 57692339, 57163036, 56839185, 59750232, 57334279, 57334280, 57334281, 57334282, 59909460, 56717873, 56717877, 56717875, 56717876, 56717878, 57417878, 59718222, 56839147, 59078208, 56836565, 56836567, 56836564, 56836562, 57166482, 58829660, 59551591, 57017916, 57017917, 57017915, 57017918, 56839144, 56839146, 56839148, 56839145, 56839149]
+      },
+      {
+        "price": "6000",
+        "productIds": [57024911, 57024913, 57024909, 57024912, 57125072, 57125073, 56839171, 58829332, 57658144, 56717797, 56717799, 56717798, 58829665, 56839121, 56839120, 59143355, 57017908, 57017907, 57017909, 57017910, 59078210, 57024914, 57024915, 59909464, 57692348, 57692349, 56717673, 56717674, 56717675, 56717672, 58829680, 58829188, 56717715, 56717717, 56717716, 58760775, 56839132, 56839131, 56839133, 58554564, 58554339, 57017911, 57692347, 57590897, 57590894, 56839137, 56839136, 58760808, 57590908, 56718161, 56718160, 56718158, 56718159, 59750321, 59718229, 57684949, 56839152, 56839153, 56839154]
+      },
+      {
+        "price": "7000",
+        "productIds": [59909958, 59909962, 57125077, 56839176, 56839174, 56839175, 58760807, 56839126, 56839182, 57125069, 56745150, 56745149, 57684957, 58357730, 59909463, 59909957, 58357774, 58760304, 56839116, 56717814, 56839158, 56839157, 56839159, 56962005, 56717711, 56839151, 56839150, 59552167, 57677212, 57684943, 56839167, 56839165, 56839166, 56839169, 56839168]
+      },
+      {
+        "price": "8000",
+        "productIds": [57677185, 58357806, 57117537, 59910201, 57125065, 58829349, 56717810, 57017894, 57590900, 56839178, 56839179, 56839177, 56839180, 57684946, 58069636, 57334284, 59142848, 57684947, 57684948, 57612716, 57017913, 57017912, 59078209, 56839186, 56839187, 58829683, 56778544, 56778543, 58101187, 56778570, 57117538]
+      },
+      {
+        "price": "9000",
+        "productIds": [57684945, 56717700, 56717701]
+      },
+      {
+        "price": "10000",
+        "productIds": []
+      },
+      {
+        "price": "11000",
+        "productIds": []
+      },
+      {
+        "price": "12000",
+        "productIds": []
+      },
+      {
+        "price": "13000",
+        "productIds": []
+      },
+      {
+        "price": "14000",
+        "productIds": []
+      },
+      {
+        "price": "15000",
+        "productIds": []
+      },
+      {
+        "price": "16000",
+        "productIds": []
+      },
+      {
+        "price": "17000",
+        "productIds": []
+      },
+      {
+        "price": "18000",
+        "productIds": []
+      },
+      {
+        "price": "19000",
+        "productIds": []
+      },
+      {
+        "price": "20000",
+        "productIds": []
+      },
+      {
+        "price": "21000",
+        "productIds": []
+      },
+      {
+        "price": "22000",
+        "productIds": []
+      },
+      {
+        "price": "23000",
+        "productIds": []
+      },
+      {
+        "price": "24000",
+        "productIds": []
+      },
+      {
+        "price": "25000",
+        "productIds": []
+      },
+      {
+        "price": "26000",
+        "productIds": []
+      },
+      {
+        "price": "27000",
+        "productIds": []
+      },
+      {
+        "price": "28000",
+        "productIds": []
+      },
+      {
+        "price": "29000",
+        "productIds": []
+      },
+      {
+        "price": "30000",
+        "productIds": []
+      },
+      {
+        "price": "31000",
+        "productIds": []
+      },
+      {
+        "price": "32000",
+        "productIds": []
+      },
+      {
+        "price": "33000",
+        "productIds": []
+      },
+      {
+        "price": "34000",
+        "productIds": []
+      },
+      {
+        "price": "34900",
+        "productIds": [57117567]
+      }
+    ],
+    "sizeFilter": [
+      {
+        "name": "S",
+        "productIds": [59909958, 59909962, 57024911, 57024913, 57024912, 57677185, 58357806, 57125077, 58829348, 56836566, 56836563, 56839175, 57692338, 57692340, 57692336, 57692337, 57692339, 57163036, 57125072, 57125073, 58760807, 56839126, 56839182, 56717810, 57125069, 56839171, 58829332, 57590900, 56745150, 57658144, 57684957, 58357730, 56717799, 58829665, 56839121, 56839120, 59143355, 56839178, 56839177, 56839180, 59909463, 59909957, 57684946, 58357774, 58069636, 57334284, 59750232, 57334279, 57334280, 57334281, 57334282, 59078210, 57024914, 57024915, 59909464, 57692348, 57692349, 58760304, 56717673, 59909460, 56717873, 56717877, 58829680, 56717875, 56717876, 56717878, 56839116, 57417878, 59718222, 56839147, 58760775, 56839132, 56839131, 56839133, 58554564, 59078208, 56836565, 56836567, 56836564, 56836562, 57166482, 58829660, 57684945, 57017911, 57612716, 57017913, 57017912, 56839158, 56839157, 56839159, 56962005, 59078209, 56839186, 56839187, 57590897, 57117567, 57590894, 56839137, 56839136, 58760808, 56839151, 56839150, 59551591, 57017916, 57017917, 57017915, 57017918, 57590908, 56718161, 56718160, 56718158, 56718159, 59750321, 59718229, 59552167, 57677212, 57684943, 57684949, 56718226, 56718229, 56718224, 56718233, 56718228, 56839144, 56839146, 56839148, 56839145, 56839149, 56778544, 56839167, 56839165, 56839166, 56839169, 56839168]
+      },
+      {
+        "name": "M",
+        "productIds": [59909958, 59909962, 57024911, 57024913, 57024909, 57024912, 57677185, 58357806, 57117537, 59910201, 57125065, 57125077, 58829348, 56836566, 56836563, 56839176, 56839174, 56839175, 57692338, 57692340, 57692336, 57692337, 57692339, 57163036, 57125072, 57125073, 58760807, 56839126, 56839182, 58829349, 56717810, 57017894, 57125069, 56839171, 58829332, 57590900, 56745150, 56745149, 57658144, 57684957, 58357730, 56717797, 56717799, 56717798, 58829665, 56839121, 56839120, 59143355, 57017908, 57017907, 57017909, 57017910, 56839185, 56839178, 56839179, 56839177, 56839180, 59909463, 59909957, 57684946, 58357774, 58069636, 57334284, 59142848, 59750232, 57334279, 57334280, 57334281, 57334282, 59078210, 57024914, 57024915, 59909464, 57692348, 57692349, 58760304, 56717673, 56717674, 56717675, 56717672, 59909460, 56717873, 56717877, 58829680, 56717875, 56717876, 56717878, 56839116, 57417878, 59718222, 56839147, 58829188, 56717715, 56717717, 56717716, 56717814, 58760775, 56839132, 56839131, 56839133, 58554564, 59078208, 56836565, 56836567, 56836564, 56836562, 58554339, 57166482, 58829660, 57684945, 57017911, 57612716, 57017913, 57017912, 57692347, 56839158, 56839157, 56839159, 56962005, 59078209, 56839186, 56839187, 57590897, 56717700, 56717701, 57117567, 56717711, 57590894, 56839137, 56839136, 58760808, 56839151, 56839150, 59551591, 57017916, 57017917, 57017915, 57017918, 57590908, 56718161, 56718160, 56718158, 56718159, 59750321, 59718229, 59552167, 57677212, 57684943, 57684949, 56718226, 56718229, 56718224, 56718225, 56718233, 56718228, 56839144, 56839146, 56839148, 56839145, 56839149, 56839152, 56839153, 56839154, 58829683, 56778544, 56778543, 58101187, 56778570, 56839167, 56839165, 56839166, 56839169, 56839168, 57117538]
+      },
+      {
+        "name": "L",
+        "productIds": [59909958, 59909962, 57024911, 57024913, 57024909, 57024912, 57677185, 58357806, 57117537, 59910201, 57125065, 57125077, 58829348, 56836566, 56836563, 56839176, 56839174, 56839175, 57692338, 57692340, 57692336, 57692337, 57692339, 57163036, 57125072, 57125073, 58760807, 56839126, 56839182, 58829349, 56717810, 57017894, 57125069, 56839171, 58829332, 57590900, 56745150, 56745149, 57658144, 57684957, 58357730, 56717797, 56717799, 56717798, 58829665, 56839121, 56839120, 59143355, 57017908, 57017907, 57017909, 57017910, 56839185, 56839178, 56839179, 56839177, 56839180, 59909463, 59909957, 57684946, 58357774, 58069636, 57334284, 59142848, 59750232, 57334279, 57334280, 57334281, 57334282, 59078210, 57024914, 57024915, 59909464, 57692348, 57692349, 58760304, 56717673, 56717674, 56717675, 56717672, 59909460, 56717873, 56717877, 58829680, 56717875, 56717876, 56717878, 56839116, 57417878, 59718222, 56839147, 58829188, 56717715, 56717717, 56717716, 56717814, 58760775, 56839132, 56839131, 56839133, 58554564, 59078208, 56836565, 56836567, 56836564, 56836562, 58554339, 57166482, 58829660, 57684945, 57017911, 57612716, 57017913, 57017912, 57692347, 56839158, 56839157, 56839159, 56962005, 59078209, 56839186, 56839187, 57590897, 56717700, 56717701, 57117567, 56717711, 57590894, 56839137, 56839136, 58760808, 56839151, 56839150, 59551591, 57017916, 57017917, 57017915, 57017918, 57590908, 56718161, 56718160, 56718158, 56718159, 59750321, 59718229, 59552167, 57677212, 57684943, 57684949, 56718226, 56718229, 56718224, 56718225, 56718233, 56718228, 56839144, 56839146, 56839148, 56839145, 56839149, 56839152, 56839153, 56839154, 58829683, 56778544, 56778543, 58101187, 56778570, 56839167, 56839165, 56839166, 56839169, 56839168, 57117538]
+      },
+      {
+        "name": "XL",
+        "productIds": [59909958, 59909962, 57024911, 57024913, 57024909, 57024912, 57677185, 58357806, 57117537, 59910201, 57125065, 57125077, 58829348, 56836566, 56836563, 56839176, 56839175, 57692340, 57692336, 57692337, 57692339, 57163036, 57125072, 57125073, 56839182, 58829349, 56717810, 57017894, 57125069, 56839171, 58829332, 57590900, 56745150, 56745149, 57658144, 57684957, 58357730, 56717797, 56717799, 56717798, 58829665, 56839121, 56839120, 59143355, 57017908, 57017907, 57017909, 56839185, 56839179, 56839177, 56839180, 59909463, 59909957, 57684946, 58357774, 58069636, 57334284, 59142848, 59750232, 57334279, 57334280, 57334281, 57334282, 59078210, 57024914, 57024915, 59909464, 57692348, 57692349, 56717673, 56717674, 56717675, 56717672, 59909460, 56717873, 56717877, 58829680, 56717875, 56717876, 56717878, 56839116, 57417878, 59718222, 56839147, 58829188, 56717717, 56717716, 56717814, 58760775, 56839132, 56839131, 56839133, 58554564, 59078208, 56836565, 56836567, 56836564, 56836562, 58554339, 57166482, 58829660, 57684945, 57017911, 57612716, 57017913, 57017912, 57692347, 56839158, 56839157, 56839159, 56962005, 59078209, 56839186, 56839187, 57590897, 56717700, 56717701, 57117567, 56717711, 57590894, 56839137, 58760808, 56839151, 56839150, 59551591, 57017916, 57017917, 57017915, 57017918, 57590908, 56718161, 56718158, 56718159, 59750321, 59718229, 59552167, 57677212, 57684943, 57684949, 56718226, 56718229, 56718224, 56718233, 56718228, 56839144, 56839146, 56839148, 56839145, 56839149, 56839152, 56839153, 56839154, 58829683, 56778544, 56778543, 58101187, 56778570, 56839167, 56839165, 56839166, 56839169, 56839168, 57117538]
+      },
+      {
+        "name": "XXL",
+        "productIds": [57125077, 56836563, 57692340, 57692336, 57692337, 57692339, 56745150, 56745149, 57017908, 59078210, 57024914, 57024915, 56717673, 56717674, 56717672, 59909460, 56717876, 57417878, 59718222, 56839147, 56717715, 59078208, 56836565, 56836567, 57017911, 56839151, 56718226, 56718229, 56718224, 56718225, 56839144, 56839146, 56839148, 56839145, 56839149]
+      },
+      {
+        "name": "S",
+        "productIds": [57684948]
+      },
+      {
+        "name": "M",
+        "productIds": [57684947, 57684948]
+      },
+      {
+        "name": "L",
+        "productIds": [57684947, 57684948]
+      },
+      {
+        "name": "XL",
+        "productIds": [57684947, 57684948]
+      }
+    ],
+    "sizeTypeFilter": [],
+    "catRelFilter": [],
+    "typeFilter": [
+      {
+        "name": "CT-CÁRDIGANS",
+        "value": "Cardigan",
+        "productIds": [57117537, 59142848, 57684947, 57017894, 57017912, 58760807, 57017913, 56717672, 58760304, 56778570, 59910201, 57684948, 59078210, 56745150, 56717675, 58829349, 57125077, 56717673, 58101187, 56839150, 57117538, 56745149, 56839126, 57125065, 57024914, 57024915, 57117567, 56717674, 56839182, 56839151]
+      },
+      {
+        "name": "CT-CAMISETAS",
+        "value": "T-shirts",
+        "productIds": [57166482, 56718226, 56839169, 56839165, 56718229, 56718225, 56839166, 58829660, 56839168, 56718224, 56718233, 56718228, 56839167]
+      },
+      {
+        "name": "CT-JERSÉIS",
+        "value": "Sweaters",
+        "productIds": [59909962, 57692340, 57684949, 59909463, 57334284, 58760775, 57024912, 59750321, 56836566, 56717711, 59909957, 56718161, 57024911, 56718159, 56836565, 57684943, 59078208, 56718158, 58357730, 59143355, 56839132, 58829348, 57692337, 57692339, 57017908, 56839133, 57684946, 57024913, 58829188, 56717716, 57017915, 58357806, 56839120, 57163036, 56836567, 56839176, 57017909, 58829680, 56839153, 57017918, 56717701, 58829332, 57684957, 57017916, 57017910, 56839186, 56839185, 56717798, 57590897, 56839171, 59551591, 57677212, 56839180, 57024909, 56717715, 56717717, 56839178, 57125073, 56836563, 57017917, 56839121, 56717700, 56839179, 59718229, 57017907, 58069636, 56717799, 58829665, 58357774, 56718160, 59909958, 56839152, 57125072, 56839175, 57692338, 57692336, 57684945, 56839131, 59552167, 57677185, 57590908, 56836562, 58554339, 57658144, 56717797, 56836564, 57017911, 59078209, 56839154, 58760808, 56839174, 56839187]
+      },
+      {
+        "name": "CT-POLOS",
+        "value": "Polo shirts",
+        "productIds": [57692340, 57684949, 59750232, 56839137, 57417878, 57334280, 59750321, 56839132, 57692337, 57692339, 56839133, 57684946, 57334282, 57017915, 56839144, 57334279, 56839145, 57017918, 56717701, 57684957, 57692347, 56839136, 57017916, 56839186, 56839146, 56839149, 56839148, 56839185, 56717798, 56839157, 59909464, 59551591, 56839180, 56839159, 57334281, 56839178, 57125073, 57017917, 56717700, 56839179, 59718229, 56717799, 57125072, 57692338, 57692336, 56839131, 56839158, 56717797, 57692348, 57692349, 56839147, 59078209, 56839187]
+      }
+    ],
+    "calFilter": [],
+    "discountFilter": [],
+    "originalPriceDiscountFilter": [],
+    "backsoonFilter": [],
+    "promoFilter": [],
+    "noveltyFilter": [57677185, 58357806, 57117537, 59910201, 57125065, 57125077, 57117538, 59750232, 57334279, 57334280, 57334281, 57334282, 56718224, 56718225, 56718233, 56718228],
+    "joinLifeFilter": [],
+    "attributeFilter": [
+      {
+        "name": "XTYPEFILTER",
+        "values": [
+          {
+            "name": "CT-CÁRDIGANS",
+            "value": "Cardigan",
+            "productIds": [57117537, 59142848, 57684947, 57017894, 57017912, 58760807, 57017913, 56717672, 58760304, 56778570, 59910201, 57684948, 59078210, 56745150, 56717675, 58829349, 57125077, 56717673, 58101187, 56839150, 57117538, 56745149, 56839126, 57125065, 57024914, 57024915, 57117567, 56717674, 56839182, 56839151]
+          },
+          {
+            "name": "CT-CAMISETAS",
+            "value": "T-shirts",
+            "productIds": [57166482, 56718226, 56839169, 56839165, 56718229, 56718225, 56839166, 58829660, 56839168, 56718224, 56718233, 56718228, 56839167]
+          },
+          {
+            "name": "CT-JERSÉIS",
+            "value": "Sweaters",
+            "productIds": [59909962, 57692340, 57684949, 59909463, 57334284, 58760775, 57024912, 59750321, 56836566, 56717711, 59909957, 56718161, 57024911, 56718159, 56836565, 57684943, 59078208, 56718158, 58357730, 59143355, 56839132, 58829348, 57692337, 57692339, 57017908, 56839133, 57684946, 57024913, 58829188, 56717716, 57017915, 58357806, 56839120, 57163036, 56836567, 56839176, 57017909, 58829680, 56839153, 57017918, 56717701, 58829332, 57684957, 57017916, 57017910, 56839186, 56839185, 56717798, 57590897, 56839171, 59551591, 57677212, 56839180, 57024909, 56717715, 56717717, 56839178, 57125073, 56836563, 57017917, 56839121, 56717700, 56839179, 59718229, 57017907, 58069636, 56717799, 58829665, 58357774, 56718160, 59909958, 56839152, 57125072, 56839175, 57692338, 57692336, 57684945, 56839131, 59552167, 57677185, 57590908, 56836562, 58554339, 57658144, 56717797, 56836564, 57017911, 59078209, 56839154, 58760808, 56839174, 56839187]
+          },
+          {
+            "name": "CT-POLOS",
+            "value": "Polo shirts",
+            "productIds": [57692340, 57684949, 59750232, 56839137, 57417878, 57334280, 59750321, 56839132, 57692337, 57692339, 56839133, 57684946, 57334282, 57017915, 56839144, 57334279, 56839145, 57017918, 56717701, 57684957, 57692347, 56839136, 57017916, 56839186, 56839146, 56839149, 56839148, 56839185, 56717798, 56839157, 59909464, 59551591, 56839180, 56839159, 57334281, 56839178, 57125073, 57017917, 56717700, 56839179, 59718229, 56717799, 57125072, 57692338, 57692336, 56839131, 56839158, 56717797, 57692348, 57692349, 56839147, 59078209, 56839187]
+          }
+        ]
+      },
+      {
+        "name": "XCALFILTER",
+        "values": [
+          {
+            "name": "CL-PUNTO",
+            "value": "Knit",
+            "productIds": [57166482, 59909962, 57684949, 56718226, 59909463, 57024912, 56778570, 57024911, 56836565, 57684943, 56718229, 56839167, 58357730, 59143355, 56839132, 58829348, 57692339, 57017908, 57684946, 57024913, 58829188, 56839150, 57017915, 58357806, 57163036, 56836567, 57334279, 57125065, 57024915, 56839153, 56717701, 58829332, 57692347, 56839136, 57017916, 57017910, 58829660, 56839151, 56839149, 56717798, 56839157, 57684947, 59909464, 56839169, 56839180, 56717717, 58760304, 57125073, 56836563, 57017917, 56839121, 56717700, 56839179, 59078210, 58069636, 56717799, 58357774, 57117538, 56839175, 56839126, 57692338, 56839158, 57692348, 56836564, 57692349, 56839147, 56839168, 56718233, 56839174, 57692340, 59750232, 57334284, 58760775, 57017912, 56839137, 58760807, 57417878, 57334280, 59750321, 56836566, 56717711, 59909957, 59910201, 56745150, 56717675, 59078208, 56839116, 57692337, 56839133, 57334282, 56717716, 56839144, 56745149, 56839120, 57117567, 56839176, 57017909, 58829680, 57017918, 57684957, 56718225, 56718228, 56839186, 57117537, 56839146, 56839148, 56839185, 56839171, 59551591, 57017913, 56839159, 57334281, 56717672, 57024909, 56717715, 56839178, 57684948, 59718229, 57017907, 57125077, 58829665, 56717673, 58101187, 59909958, 56839152, 57692336, 57684945, 57024914, 56839131, 56717674, 57677185, 56836562, 58554339, 56839165, 57658144, 56717797, 56839182, 57017911, 56839166, 59078209, 56839154, 58760808, 56718224]
+          },
+          {
+            "name": "CL-LANA",
+            "value": "Wool",
+            "productIds": [56839185, 56839157, 57334284, 56839137, 56839169, 56839180, 56839159, 59909460, 56839178, 56717711, 56717875, 56717877, 56717814, 56717700, 56839179, 58069636, 56839167, 57684946, 56717873, 56839175, 57684945, 56839176, 56839158, 56717876, 56717878, 56717701, 56839165, 56839136, 56839166, 59078209, 56839168, 56839174, 56839186, 56839187]
+          },
+          {
+            "name": "CL-LINO",
+            "value": "Linen",
+            "productIds": [57117537, 59552167, 59910201, 57117538, 57677212]
+          },
+          {
+            "name": "CL-PIEL",
+            "value": "Leather",
+            "productIds": [57117567]
+          },
+          {
+            "name": "CL-ALGODÓN",
+            "value": "Cotton",
+            "productIds": [57166482, 59909962, 57684949, 59142848, 56718226, 59909463, 57024912, 57024911, 56718159, 56836565, 57684943, 56718229, 58357730, 59143355, 56839132, 58829348, 57692339, 57017908, 57024913, 58829188, 56839150, 57017915, 56836567, 57334279, 57024915, 56839153, 58829332, 57017916, 57017910, 58829660, 56839151, 56839149, 56717798, 57590897, 57684947, 59909464, 57017894, 56717717, 58760304, 57125073, 56836563, 57017917, 56839121, 59078210, 56717799, 58357774, 56839126, 57692338, 57590908, 57692348, 56836564, 57692349, 56839147, 56718233, 57692340, 59750232, 58760775, 57017912, 58760807, 57417878, 57334280, 59750321, 56836566, 59909957, 56718161, 56745150, 56717675, 58829349, 59078208, 56839116, 56718158, 57692337, 56839133, 57334282, 56717716, 56839144, 56745149, 56839120, 56839145, 57017909, 58829680, 57017918, 57684957, 56718225, 56718228, 56839146, 56839148, 56839171, 59551591, 57017913, 57334281, 56717672, 57024909, 56717715, 57684948, 59718229, 57017907, 57125077, 58829665, 56717673, 56718160, 59909958, 56839152, 57125072, 57692336, 57024914, 56839131, 56717674, 56836562, 58554339, 57658144, 56717797, 56839182, 57017911, 56839154, 58760808, 56718224]
+          }
+        ]
+      }
+    ],
+    "lastSizesFilter": [],
+    "sizeFilterByProductType": [
+      {
+        "name": "S",
+        "type": "Clothing",
+        "productIds": [59909958, 59909962, 57024911, 57024913, 57024912, 57677185, 58357806, 57125077, 58829348, 56836566, 56836563, 56839175, 57692338, 57692340, 57692336, 57692337, 57692339, 57163036, 57125072, 57125073, 58760807, 56839126, 56839182, 56717810, 57125069, 56839171, 58829332, 57590900, 56745150, 57658144, 57684957, 58357730, 56717799, 58829665, 56839121, 56839120, 59143355, 56839178, 56839177, 56839180, 59909463, 59909957, 57684946, 58357774, 58069636, 57334284, 59750232, 57334279, 57334280, 57334281, 57334282, 59078210, 57024914, 57024915, 59909464, 57692348, 57692349, 58760304, 56717673, 59909460, 56717873, 56717877, 58829680, 56717875, 56717876, 56717878, 56839116, 57417878, 59718222, 56839147, 58760775, 56839132, 56839131, 56839133, 58554564, 59078208, 56836565, 56836567, 56836564, 56836562, 57166482, 58829660, 57684945, 57017911, 57612716, 57017913, 57017912, 56839158, 56839157, 56839159, 56962005, 59078209, 56839186, 56839187, 57590897, 57117567, 57590894, 56839137, 56839136, 58760808, 56839151, 56839150, 59551591, 57017916, 57017917, 57017915, 57017918, 57590908, 56718161, 56718160, 56718158, 56718159, 59750321, 59718229, 59552167, 57677212, 57684943, 57684949, 56718226, 56718229, 56718224, 56718233, 56718228, 56839144, 56839146, 56839148, 56839145, 56839149, 56778544, 56839167, 56839165, 56839166, 56839169, 56839168, 57684948]
+      },
+      {
+        "name": "M",
+        "type": "Clothing",
+        "productIds": [59909958, 59909962, 57024911, 57024913, 57024909, 57024912, 57677185, 58357806, 57117537, 59910201, 57125065, 57125077, 58829348, 56836566, 56836563, 56839176, 56839174, 56839175, 57692338, 57692340, 57692336, 57692337, 57692339, 57163036, 57125072, 57125073, 58760807, 56839126, 56839182, 58829349, 56717810, 57017894, 57125069, 56839171, 58829332, 57590900, 56745150, 56745149, 57658144, 57684957, 58357730, 56717797, 56717799, 56717798, 58829665, 56839121, 56839120, 59143355, 57017908, 57017907, 57017909, 57017910, 56839185, 56839178, 56839179, 56839177, 56839180, 59909463, 59909957, 57684946, 58357774, 58069636, 57334284, 59142848, 59750232, 57334279, 57334280, 57334281, 57334282, 59078210, 57024914, 57024915, 59909464, 57692348, 57692349, 58760304, 56717673, 56717674, 56717675, 56717672, 59909460, 56717873, 56717877, 58829680, 56717875, 56717876, 56717878, 56839116, 57417878, 59718222, 56839147, 58829188, 56717715, 56717717, 56717716, 56717814, 58760775, 56839132, 56839131, 56839133, 58554564, 59078208, 56836565, 56836567, 56836564, 56836562, 58554339, 57166482, 58829660, 57684945, 57017911, 57612716, 57017913, 57017912, 57692347, 56839158, 56839157, 56839159, 56962005, 59078209, 56839186, 56839187, 57590897, 56717700, 56717701, 57117567, 56717711, 57590894, 56839137, 56839136, 58760808, 56839151, 56839150, 59551591, 57017916, 57017917, 57017915, 57017918, 57590908, 56718161, 56718160, 56718158, 56718159, 59750321, 59718229, 59552167, 57677212, 57684943, 57684949, 56718226, 56718229, 56718224, 56718225, 56718233, 56718228, 56839144, 56839146, 56839148, 56839145, 56839149, 56839152, 56839153, 56839154, 58829683, 56778544, 56778543, 58101187, 56778570, 56839167, 56839165, 56839166, 56839169, 56839168, 57117538, 57684947, 57684948]
+      },
+      {
+        "name": "L",
+        "type": "Clothing",
+        "productIds": [59909958, 59909962, 57024911, 57024913, 57024909, 57024912, 57677185, 58357806, 57117537, 59910201, 57125065, 57125077, 58829348, 56836566, 56836563, 56839176, 56839174, 56839175, 57692338, 57692340, 57692336, 57692337, 57692339, 57163036, 57125072, 57125073, 58760807, 56839126, 56839182, 58829349, 56717810, 57017894, 57125069, 56839171, 58829332, 57590900, 56745150, 56745149, 57658144, 57684957, 58357730, 56717797, 56717799, 56717798, 58829665, 56839121, 56839120, 59143355, 57017908, 57017907, 57017909, 57017910, 56839185, 56839178, 56839179, 56839177, 56839180, 59909463, 59909957, 57684946, 58357774, 58069636, 57334284, 59142848, 59750232, 57334279, 57334280, 57334281, 57334282, 59078210, 57024914, 57024915, 59909464, 57692348, 57692349, 58760304, 56717673, 56717674, 56717675, 56717672, 59909460, 56717873, 56717877, 58829680, 56717875, 56717876, 56717878, 56839116, 57417878, 59718222, 56839147, 58829188, 56717715, 56717717, 56717716, 56717814, 58760775, 56839132, 56839131, 56839133, 58554564, 59078208, 56836565, 56836567, 56836564, 56836562, 58554339, 57166482, 58829660, 57684945, 57017911, 57612716, 57017913, 57017912, 57692347, 56839158, 56839157, 56839159, 56962005, 59078209, 56839186, 56839187, 57590897, 56717700, 56717701, 57117567, 56717711, 57590894, 56839137, 56839136, 58760808, 56839151, 56839150, 59551591, 57017916, 57017917, 57017915, 57017918, 57590908, 56718161, 56718160, 56718158, 56718159, 59750321, 59718229, 59552167, 57677212, 57684943, 57684949, 56718226, 56718229, 56718224, 56718225, 56718233, 56718228, 56839144, 56839146, 56839148, 56839145, 56839149, 56839152, 56839153, 56839154, 58829683, 56778544, 56778543, 58101187, 56778570, 56839167, 56839165, 56839166, 56839169, 56839168, 57117538, 57684947, 57684948]
+      },
+      {
+        "name": "XL",
+        "type": "Clothing",
+        "productIds": [59909958, 59909962, 57024911, 57024913, 57024909, 57024912, 57677185, 58357806, 57117537, 59910201, 57125065, 57125077, 58829348, 56836566, 56836563, 56839176, 56839175, 57692340, 57692336, 57692337, 57692339, 57163036, 57125072, 57125073, 56839182, 58829349, 56717810, 57017894, 57125069, 56839171, 58829332, 57590900, 56745150, 56745149, 57658144, 57684957, 58357730, 56717797, 56717799, 56717798, 58829665, 56839121, 56839120, 59143355, 57017908, 57017907, 57017909, 56839185, 56839179, 56839177, 56839180, 59909463, 59909957, 57684946, 58357774, 58069636, 57334284, 59142848, 59750232, 57334279, 57334280, 57334281, 57334282, 59078210, 57024914, 57024915, 59909464, 57692348, 57692349, 56717673, 56717674, 56717675, 56717672, 59909460, 56717873, 56717877, 58829680, 56717875, 56717876, 56717878, 56839116, 57417878, 59718222, 56839147, 58829188, 56717717, 56717716, 56717814, 58760775, 56839132, 56839131, 56839133, 58554564, 59078208, 56836565, 56836567, 56836564, 56836562, 58554339, 57166482, 58829660, 57684945, 57017911, 57612716, 57017913, 57017912, 57692347, 56839158, 56839157, 56839159, 56962005, 59078209, 56839186, 56839187, 57590897, 56717700, 56717701, 57117567, 56717711, 57590894, 56839137, 58760808, 56839151, 56839150, 59551591, 57017916, 57017917, 57017915, 57017918, 57590908, 56718161, 56718158, 56718159, 59750321, 59718229, 59552167, 57677212, 57684943, 57684949, 56718226, 56718229, 56718224, 56718233, 56718228, 56839144, 56839146, 56839148, 56839145, 56839149, 56839152, 56839153, 56839154, 58829683, 56778544, 56778543, 58101187, 56778570, 56839167, 56839165, 56839166, 56839169, 56839168, 57117538, 57684947, 57684948]
+      },
+      {
+        "name": "XXL",
+        "type": "Clothing",
+        "productIds": [57125077, 56836563, 57692340, 57692336, 57692337, 57692339, 56745150, 56745149, 57017908, 59078210, 57024914, 57024915, 56717673, 56717674, 56717672, 59909460, 56717876, 57417878, 59718222, 56839147, 56717715, 59078208, 56836565, 56836567, 57017911, 56839151, 56718226, 56718229, 56718224, 56718225, 56839144, 56839146, 56839148, 56839145, 56839149]
+      }
+    ]
+  },
+  "productIds": [59909958, 59909962, 57024911, 57024913, 57024909, 57024912, 57677185, 58357806, 57117537, 59910201, 57125065, 57125077, 58829348, 56836566, 56836563, 56839176, 56839174, 56839175, 57692338, 57692340, 57692336, 57692337, 57692339, 57163036, 57125072, 57125073, 58760807, 56839126, 56839182, 58829349, 56717810, 57017894, 57125069, 56839171, 58829332, 57590900, 56745150, 56745149, 57658144, 57684957, 58357730, 56717797, 56717799, 56717798, 58829665, 56839121, 56839120, 59143355, 57017908, 57017907, 57017909, 57017910, 56839185, 56839178, 56839179, 56839177, 56839180, 59909463, 59909957, 57684946, 58357774, 58069636, 57334284, 59142848, 57684947, 57684948, 59750232, 57334279, 57334280, 57334281, 57334282, 59078210, 57024914, 57024915, 59909464, 57692348, 57692349, 58760304, 56717673, 56717674, 56717675, 56717672, 59909460, 56717873, 56717877, 58829680, 56717875, 56717876, 56717878, 56839116, 57417878, 59718222, 56839147, 58829188, 56717715, 56717717, 56717716, 56717814, 58760775, 56839132, 56839131, 56839133, 58554564, 59078208, 56836565, 56836567, 56836564, 56836562, 58554339, 57166482, 58829660, 57684945, 57017911, 57612716, 57017913, 57017912, 57692347, 56839158, 56839157, 56839159, 56962005, 59078209, 56839186, 56839187, 57590897, 56717700, 56717701, 57117567, 56717711, 57590894, 56839137, 56839136, 58760808, 56839151, 56839150, 59551591, 57017916, 57017917, 57017915, 57017918, 57590908, 56718161, 56718160, 56718158, 56718159, 59750321, 59718229, 59552167, 57677212, 57684943, 57684949, 56718226, 56718229, 56718224, 56718225, 56718233, 56718228, 56839144, 56839146, 56839148, 56839145, 56839149, 56839152, 56839153, 56839154, 58829683, 56778544, 56778543, 58101187, 56778570, 56839167, 56839165, 56839166, 56839169, 56839168, 57117538],
+  "sortedProductIds": [57677185, 58357806, 57117537, 59910201, 57125065, 57125077, 57117538, 59750232, 57334279, 57334280, 57334281, 57334282, 56718224, 56718225, 56718233, 56718228, 56718226, 56718229, 56717673, 56717674, 56717675, 56717672, 56717797, 56717799, 56717798, 56839136, 57590897, 56718159, 56717810, 57590900, 56717814, 57612716, 57590908, 56718161, 56718160, 56718158, 59909460, 56717873, 56717877, 56717875, 56717876, 56717878, 57590894, 56839137, 58829683, 56778543, 56717700, 56717711, 58829188, 56717715, 56717717, 56717716, 56717701, 56778544, 58069636, 57334284, 56839176, 56839174, 56839175, 56745150, 56745149, 58829665, 56839121, 56839120, 57017907, 57017909, 57017910, 56839178, 56839180, 58760775, 57684945, 57017913, 57017912, 58101187, 56778570, 57024911, 57024909, 57024912, 59143355, 58829680, 56839116, 58554339, 58760808, 56839151, 56839150, 57024913, 58760807, 56839126, 58760304, 56839132, 56839131, 56839133, 58554564, 57017911, 57117567, 56839167, 56839165, 56839166, 56839169, 56839168, 58829348, 56836566, 57692340, 57692337, 57692339, 56839182, 56839171, 58829332, 57017908, 56839185, 56839179, 56839177, 56836565, 56836562, 57166482, 58829660, 56839152, 56839153, 56839154, 58829349, 57017894, 59142848, 57692347, 56839144, 56839146, 56839148, 56839145, 56839149, 56836563, 57692338, 57125072, 57125073, 57125069, 57684947, 57684948, 59078210, 57024914, 57024915, 59078208, 56836567, 56836564, 56839158, 56839157, 56839159, 59078209, 56839186, 56839187, 58357730, 57684946, 57163036, 57658144, 59909463, 59909957, 58357774, 57684957, 57692336, 59551591, 57017916, 57017917, 57017915, 57017918, 59909958, 59909962, 59909464, 57692348, 57692349, 59750321, 59718229, 57684943, 57684949, 57417878, 59718222, 56839147, 56962005, 59552167, 57677212],
+  "sortedProductIdsByPricesAsc": [56718226, 56718229, 56718224, 56718225, 56718233, 56718228, 58829348, 56836566, 56836563, 57692338, 57692340, 57692336, 57692337, 57692339, 57163036, 56839185, 59750232, 57334279, 57334280, 57334281, 57334282, 59909460, 56717873, 56717877, 56717875, 56717876, 56717878, 57417878, 59718222, 56839147, 59078208, 56836565, 56836567, 56836564, 56836562, 57166482, 58829660, 59551591, 57017916, 57017917, 57017915, 57017918, 56839144, 56839146, 56839148, 56839145, 56839149, 57024911, 57024913, 57024909, 57024912, 57125072, 57125073, 56839171, 58829332, 57658144, 56717797, 56717799, 56717798, 58829665, 56839121, 56839120, 59143355, 57017908, 57017907, 57017909, 57017910, 59078210, 57024914, 57024915, 59909464, 57692348, 57692349, 56717673, 56717674, 56717675, 56717672, 58829680, 58829188, 56717715, 56717717, 56717716, 58760775, 56839132, 56839131, 56839133, 58554564, 58554339, 57017911, 57692347, 57590897, 57590894, 56839137, 56839136, 58760808, 57590908, 56718161, 56718160, 56718158, 56718159, 59750321, 59718229, 57684949, 56839152, 56839153, 56839154, 59909958, 59909962, 57125077, 56839176, 56839174, 56839175, 58760807, 56839126, 56839182, 57125069, 56745150, 56745149, 57684957, 58357730, 59909463, 59909957, 58357774, 58760304, 56839116, 56717814, 56839158, 56839157, 56839159, 56962005, 56717711, 56839151, 56839150, 59552167, 57677212, 57684943, 56839167, 56839165, 56839166, 56839169, 56839168, 57677185, 58357806, 57117537, 59910201, 57125065, 58829349, 56717810, 57017894, 57590900, 56839178, 56839179, 56839177, 56839180, 57684946, 58069636, 57334284, 59142848, 57684947, 57684948, 57612716, 57017913, 57017912, 59078209, 56839186, 56839187, 58829683, 56778544, 56778543, 58101187, 56778570, 57117538, 57684945, 56717700, 56717701, 57117567],
+  "gridContext": {
+    "gridId": "f3f3c450-ad5a-410b-9e0e-6e0693f516e9",
+    "defaultImageViewType": "",
+    "promotionalBanners": [],
+    "sectionNames": [
+      "EDITORIAL_SECTION",
+      "PRIO 1",
+      "OTROS"
+    ]
+  }
+}
