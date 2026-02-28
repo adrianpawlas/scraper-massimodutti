@@ -6,7 +6,7 @@ from typing import Optional
 import requests
 import torch
 from PIL import Image
-from transformers import AutoProcessor, AutoModel
+from transformers import SiglipModel, SiglipProcessor
 
 logger = logging.getLogger(__name__)
 
@@ -30,8 +30,8 @@ def _load_model():
     global _model, _processor
     if _model is None:
         logger.info("Loading SigLIP model %s...", MODEL_NAME)
-        _processor = AutoProcessor.from_pretrained(MODEL_NAME)
-        _model = AutoModel.from_pretrained(MODEL_NAME)
+        _processor = SiglipProcessor.from_pretrained(MODEL_NAME)
+        _model = SiglipModel.from_pretrained(MODEL_NAME)
         _model.to(_get_device())
         _model.eval()
     return _model, _processor

@@ -21,6 +21,8 @@ SECOND_HAND = False
 # Base URLs for Massimo Dutti
 BASE_PRODUCT_URL = "https://www.massimodutti.com"
 IMAGE_BASE_URL = "https://static.massimodutti.net"
+# Product URL locale (country/language)
+PRODUCT_URL_LOCALE = "be/en"
 
 # Currency mapping by country (ISO 4217)
 COUNTRY_TO_CURRENCY = {

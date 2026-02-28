@@ -3,12 +3,17 @@ import json
 import re
 from typing import Any
 
-from config import BASE_PRODUCT_URL, COUNTRY_TO_CURRENCY, IMAGE_BASE_URL
+from config import (
+    BASE_PRODUCT_URL,
+    COUNTRY_TO_CURRENCY,
+    IMAGE_BASE_URL,
+    PRODUCT_URL_LOCALE,
+)
 
 
 def detect_api_type(data: dict) -> str:
     """Detect API response type: 'products' (full data) or 'grid' (product IDs)."""
-    if "products" in data:
+    if "products" in data or "productsArray" in data:
         return "products"
     if "gridElements" in data or "productIds" in data:
         return "grid"
@@ -50,55 +55,56 @@ def extract_product_ids_from_grid(data: dict) -> set[int]:
     return product_ids
 
 
+# Only use full CDN URLs (assets/public with -c/-o1/-t suffixes)
+ASSETS_PUBLIC_PREFIX = f"{IMAGE_BASE_URL}/assets/public/"
+
+
 def get_image_urls_from_product(bundle_summary: dict) -> tuple[str | None, list[str]]:
     """
     Extract main image URL and additional image URLs from product.
+    Only uses full CDN URLs: static.massimodutti.net/assets/public/.../-c/-o1/-t
     Returns (main_image_url, [additional_urls]).
     """
     main_url = None
     additional_urls = []
 
     detail = bundle_summary.get("detail", {})
-    colors = detail.get("colors", [])
-
-    # Try xmedia first (has full URLs)
     xmedia = detail.get("xmedia", [])
-    all_urls = []
+
+    # Collect only full assets/public URLs (c, o1, t formats)
+    all_urls: list[str] = []
+    o1_url: str | None = None  # Prefer -o1 as main
     for xm in xmedia:
         for item in xm.get("xmediaItems", []):
             for media in item.get("medias", []):
                 url = media.get("url")
-                if url and url not in all_urls:
-                    all_urls.append(url)
+                if not url or not url.startswith(ASSETS_PUBLIC_PREFIX):
+                    continue
+                if url in all_urls:
+                    continue
+                if "-o1" in url:
+                    o1_url = url
+                all_urls.append(url)
 
-    if all_urls:
-        main_url = all_urls[0]
-        additional_urls = all_urls[1:]
+    if not all_urls:
+        return None, []
 
-    # Fallback: build URL from colors[].image.url path
-    if not main_url and colors:
-        for color in colors:
-            img = color.get("image", {})
-            path = img.get("url")
-            if path:
-                # Path format: /2026/V/0/2/p/1223/203/720/1223203720
-                # Last part is the image ID - build URL
-                parts = path.strip("/").split("/")
-                img_id = parts[-1] if parts else None
-                if img_id:
-                    url = f"{IMAGE_BASE_URL}/assets/public/{img_id[:4]}/{img_id[4:8]}/{img_id}_{{suffix}}.jpg"
-                    # Try common suffixes - o1 is typically main product image
-                    for suffix in ["o1", "1_1_1", "c"]:
-                        candidate = f"{IMAGE_BASE_URL}/is/image/massimodutti/{img_id}_{suffix}"
-                        # Simpler: use their CDN format
-                        candidate = f"{IMAGE_BASE_URL}/2/3/2/5/4/{img_id}_1_1_1.jpg"
-                        break
-                    # Massimo Dutti uses: https://static.massimodutti.net/... from xmedia
-                    # Without xmedia we'd need to fetch - use first color's path
-                    # Build: path format 1223203720, use known pattern
-                    ref = path.split("/")[-1]
-                    main_url = f"{IMAGE_BASE_URL}/is/image/massimodutti/{ref}_1_1_1"
+    # Prefer -o1 for main, then -c, then -t, then first valid
+    if o1_url:
+        main_url = o1_url
+        additional_urls = [u for u in all_urls if u != o1_url]
+    else:
+        for suffix in ("-c", "-t"):
+            for u in all_urls:
+                if suffix in u:
+                    main_url = u
+                    additional_urls = [x for x in all_urls if x != u]
                     break
+            if main_url:
+                break
+        if not main_url:
+            main_url = all_urls[0]
+            additional_urls = all_urls[1:]
 
     return main_url, additional_urls
 
@@ -159,22 +165,31 @@ def get_gender_from_attributes(attributes: list[dict]) -> str:
     return "man"
 
 
-def collect_prices_by_currency(
+# EUR countries - prefer these for price lookup
+EUR_COUNTRIES = frozenset(
+    c for c, curr in COUNTRY_TO_CURRENCY.items() if curr == "EUR"
+)
+
+
+def collect_prices_eur(
     bundle_summary: dict,
-) -> tuple[dict[str, str], dict[str, str]]:
+) -> tuple[str | None, str | None]:
     """
-    Collect prices (original) and sale prices by currency from all sizes/colors.
-    API: price=current price, oldPrice=original when on sale.
-    Returns (original_prices, sale_prices) - price=original, sale=discounted or same.
+    Collect EUR-only prices. API: price=current, oldPrice=original when on sale.
+    Returns (normal_price_eur, sale_price_eur | None).
+    - normal_price: original/regular price in EUR (e.g. 69.95EUR)
+    - sale_price: discounted price when on sale (oldPrice exists), else None
     """
-    original: dict[str, int] = {}  # currency -> original price in cents
-    sale: dict[str, int] = {}  # currency -> sale price in cents (discounted or same as original)
+    original_cents: int | None = None
+    sale_cents: int | None = None
+    has_discount = False
 
     colors = bundle_summary.get("detail", {}).get("colors", [])
     for color in colors:
         for size in color.get("sizes", []):
             country = size.get("country", "")
-            currency = COUNTRY_TO_CURRENCY.get(country.upper(), "EUR")
+            if country.upper() not in EUR_COUNTRIES:
+                continue
 
             price_str = size.get("price")
             old_price_str = size.get("oldPrice")
@@ -185,36 +200,44 @@ def collect_prices_by_currency(
 
                 if price_cents is not None:
                     if old_cents is not None:
-                        original[currency] = old_cents
-                        sale[currency] = price_cents
+                        original_cents = old_cents
+                        sale_cents = price_cents
+                        has_discount = True
                     else:
-                        original[currency] = price_cents
-                        sale[currency] = price_cents
+                        original_cents = price_cents
+                        sale_cents = None
+                    break
             except (ValueError, TypeError):
                 pass
+        else:
+            continue
+        break
 
-    price_formatted = {c: format_price(p, c) for c, p in original.items()}
-    sale_formatted = {c: format_price(p, c) for c, p in sale.items()}
+    if original_cents is None:
+        return None, None
 
-    return price_formatted, sale_formatted
+    price_str = format_price(original_cents, "EUR")
+    sale_str = format_price(sale_cents, "EUR") if sale_cents is not None else None
+    return price_str, sale_str
 
 
-def build_product_url(product: dict, bundle_summary: dict, gender: str = "man") -> str:
-    """Build product page URL. gender: 'man' or 'woman'."""
+def build_product_url(
+    product: dict, bundle_summary: dict, product_id: int, gender: str = "man"
+) -> str:
+    """Build product page URL: be/en/{slug}-l{ref}?pelement={product_id}."""
     detail = bundle_summary.get("detail", {})
-    ref = detail.get("reference") or detail.get("displayReference")
-    reference = ""
-    if ref:
-        base = ref.split("-")[0].replace("/", "")
-        reference = base[:12] if base else ""
+    ref = detail.get("reference") or detail.get("displayReference") or ""
+    ref_clean = ref.split("-")[0].replace("/", "").strip() if ref else ""
+    if len(ref_clean) < 8:
+        ref_clean = ref_clean.zfill(8)
 
     name = product.get("name") or product.get("nameEn") or "product"
     slug = slugify(name)
 
-    path = f"{BASE_PRODUCT_URL}/{gender}/clothing"
-    if reference:
-        return f"{path}/{slug}-c{reference}.html"
-    return f"{path}/{slug}.html"
+    base = f"{BASE_PRODUCT_URL}/{PRODUCT_URL_LOCALE}"
+    if ref_clean:
+        return f"{base}/{slug}-l{ref_clean}?pelement={product_id}"
+    return f"{base}/{slug}?pelement={product_id}"
 
 
 def parse_products_api(data: dict) -> list[dict]:
@@ -222,7 +245,7 @@ def parse_products_api(data: dict) -> list[dict]:
     Parse products API response into flat product records for DB.
     One record per product (unique by product_url) - bundles share URL.
     """
-    products_raw = data.get("products", [])
+    products_raw = data.get("productsArray", data.get("products", []))
     records = []
     seen_urls: set[str] = set()
 
@@ -241,21 +264,13 @@ def parse_products_api(data: dict) -> list[dict]:
 
         main_image, additional_images = get_image_urls_from_product(bundle)
 
-        if not main_image and colors:
-            # Build from color image path
-            img = colors[0].get("image", {})
-            path = img.get("url", "")
-            if path:
-                img_id = path.split("/")[-1]
-                main_image = f"{IMAGE_BASE_URL}/is/image/massimodutti/{img_id}_1_1_1.jpg"
-
         if not main_image:
             continue
 
         product_id = product.get("id")
         attributes = product.get("attributes", [])
         gender = get_gender_from_attributes(attributes)
-        product_url = build_product_url(product, bundle, gender)
+        product_url = build_product_url(product, bundle, product_id, gender)
 
         if product_url in seen_urls:
             continue
@@ -264,21 +279,7 @@ def parse_products_api(data: dict) -> list[dict]:
         category = get_categories_from_attributes(attributes)
         description = get_description_from_attributes(attributes)
 
-        prices_by_curr, sale_by_curr = collect_prices_by_currency(bundle)
-
-        # Order: EUR first, then USD, then others
-        def ordered_prices(d: dict) -> str:
-            ordered = []
-            for c in ["EUR", "USD"]:
-                if c in d:
-                    ordered.append(d[c])
-            for c, v in d.items():
-                if c not in ("EUR", "USD"):
-                    ordered.append(v)
-            return ",".join(ordered)
-
-        price_str = ordered_prices(prices_by_curr) if prices_by_curr else ""
-        sale_str = ordered_prices(sale_by_curr) if sale_by_curr else price_str
+        price_str, sale_str = collect_prices_eur(bundle)
 
         additional_images_str = " , ".join(additional_images) if additional_images else None
 
