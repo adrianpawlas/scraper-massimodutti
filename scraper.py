@@ -65,6 +65,36 @@ def fetch_json(url_or_path: str) -> Optional[dict]:
         return None
 
 
+def detect_gender_from_url(url: str, api_urls_file: Path = API_URLS_FILE) -> str | None:
+    """
+    Detect gender from URL context based on api_urls.txt structure.
+    Returns 'woman' if URL appears after '# --- WOMEN ---' comment, 'man' otherwise.
+    Returns None if gender cannot be determined.
+    """
+    if not api_urls_file.exists():
+        return None
+    
+    lines = api_urls_file.read_text(encoding="utf-8").splitlines()
+    
+    url_line_idx = None
+    for idx, line in enumerate(lines):
+        if line.strip() == url.strip():
+            url_line_idx = idx
+            break
+    
+    if url_line_idx is None:
+        return None
+    
+    for i in range(url_line_idx, -1, -1):
+        line = lines[i].strip()
+        if line == "# --- WOMEN ---":
+            return "woman"
+        if line == "# --- MEN ---":
+            return "man"
+    
+    return "man"
+
+
 def build_info_text(record: dict) -> str:
     """Build concatenated text for info_embedding."""
     parts = [
@@ -145,7 +175,10 @@ def run_scraper(api_urls: Optional[list[str]] = None, skip_embeddings: bool = Fa
             continue
 
         if api_type == "products":
-            records = parse_products_api(data)
+            gender_override = detect_gender_from_url(url)
+            if gender_override:
+                logger.info("Using gender override: %s", gender_override)
+            records = parse_products_api(data, gender_override=gender_override)
             for r in records:
                 all_records[r["id"]] = r
             logger.info("Parsed %d products from products API", len(records))

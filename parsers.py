@@ -293,10 +293,11 @@ def build_product_url(
     return f"{base}/{slug}?pelement={product_id}"
 
 
-def parse_products_api(data: dict) -> list[dict]:
+def parse_products_api(data: dict, gender_override: str | None = None) -> list[dict]:
     """
     Parse products API response into flat product records for DB.
     One record per product (unique by product_url) - bundles share URL.
+    gender_override: if provided, forces this gender for all products.
     """
     products_raw = data.get("productsArray", data.get("products", []))
     records = []
@@ -324,8 +325,9 @@ def parse_products_api(data: dict) -> list[dict]:
         attributes = product.get("attributes", [])
         category = get_categories_from_attributes(attributes)
         title = product.get("name") or product.get("nameEn") or ""
-        gender = get_gender_from_attributes(attributes, category=category, title=title)
-        product_url = build_product_url(product, bundle, product_id, gender)
+        detected_gender = get_gender_from_attributes(attributes, category=category, title=title)
+        final_gender = gender_override if gender_override else detected_gender
+        product_url = build_product_url(product, bundle, product_id, final_gender)
 
         if product_url in seen_urls:
             continue
@@ -354,7 +356,7 @@ def parse_products_api(data: dict) -> list[dict]:
                 "id": f"massimodutti_{product_id}",
                 "product_id": product_id,
                 "product_url": product_url,
-                "gender": gender,
+                "gender": final_gender,
                 "image_url": main_image,
                 "additional_images": additional_images_str,
                 "title": product.get("name") or product.get("nameEn") or "Unknown",

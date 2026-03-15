@@ -2,6 +2,8 @@
 # Full product data - one URL per line
 # Gender is auto-detected from API (man/woman)
 
+# --- MEN ---
+
 # Sweaters & Cardigans
 https://www.massimodutti.com/itxrest/3/catalog/store/34009452/30359501/productsArray?languageId=-1&appId=1&productIds=59909958%2C59909962%2C57024911%2C57024913%2C57024909%2C57024912%2C57677185%2C58357806%2C57117537%2C59910201%2C57125065%2C57125077
 https://www.massimodutti.com/itxrest/3/catalog/store/34009452/30359501/productsArray?languageId=-1&appId=1&productIds=58829348%2C56836566%2C56836563%2C56839176%2C56839174%2C56839175%2C57692338%2C57692340%2C57692336%2C57692337%2C57692339%2C57163036
